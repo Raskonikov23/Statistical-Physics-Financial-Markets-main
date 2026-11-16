@@ -1,0 +1,27 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Segredos e configurações locais
+.env
+
+# Dados locais e resultados gerados (não versionar dados sem verificar licença)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+figures/*
+!figures/.gitkeep
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
